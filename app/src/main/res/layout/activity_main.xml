@@ -10,7 +10,7 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="fionaanddonna.punapp2.MainActivity"
-    android:background="@drawable/anchor"
+    android:background="@drawable/worm"
     >
 
     <android.support.design.widget.AppBarLayout
@@ -28,8 +28,9 @@
         android:layout_height="wrap_content"
         android:text="Click for Puns!!"
         android:id="@+id/button"
-        android:layout_centerVertical="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -39,8 +40,8 @@
         android:id="@+id/textView2"
         android:textColor="#993333"
         android:textSize="50px"
-        android:layout_marginTop="52dp"
-        android:layout_below="@+id/button"
+        android:layout_marginBottom="64dp"
+        android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true" />
 
 
@@ -55,7 +56,7 @@
         android:layout_centerHorizontal="true"
         android:textSize="100px"
         android:typeface="serif"
-        android:textColor="#800000"
+        android:textColor="#009900"
         />
 
 </RelativeLayout>
